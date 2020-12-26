@@ -1,8 +1,8 @@
 {
   "name": "wizardsstorylauncher",
   "version": "0.0.1",
-  "productName": "Wizards Story Launcher",
-  "description": "Wizards StoryModded Minecraft Launcher",
+  "productName": "WizardsStoryLauncher",
+  "description": "Modded Minecraft Launcher",
   "author": "WS Devs fork of Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/mawathilde/wizards-story-launcher",
