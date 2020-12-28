@@ -485,12 +485,8 @@ body, button {
 
 /* Logo on login form. */
 #loginImageSeal {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
-    background: rgba(1, 2, 1, 0.5);
-    height: 125px;
-    width: 125px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    height: 250px;
+    width: 250px;
     margin-bottom: 20px;
 }
 
@@ -498,7 +494,7 @@ body, button {
 #loginSubheader {
     font-family: 'Avenir Medium';
     margin-bottom: 25px;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -506,7 +502,6 @@ body, button {
 /* Container to organize login field elements. */
 .loginFieldContainer {
     position: relative;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -559,7 +554,7 @@ body, button {
 .loginField {
     font-family: 'Avenir Book';
     background: none;
-    border-width: 1.5px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
     border-style: solid;
     width: 250px;
     margin-bottom: 20px;
