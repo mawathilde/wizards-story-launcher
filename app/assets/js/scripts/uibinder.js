@@ -110,7 +110,7 @@ function showFatalStartupError(){
             document.getElementById('overlayContainer').style.background = 'none'
             setOverlayContent(
                 'Erreur fatale: Impossible de charger l\'index de distribution',
-                'Une connexion n\'a pas pu être établie avec nos serveurs pour télécharger l\'index de distribution. Aucune copie locale n\'était disponible pour le chargement. <br> <br> L'index de distribution est un fichier essentiel qui fournit les dernières informations sur le serveur. Le launcher ne peut pas démarrer sans lui. Assurez-vous que vous êtes connecté à Internet et relancez l'application.',
+                'Une connexion n\'a pas pu être établie avec nos serveurs pour télécharger l\'index de distribution. Aucune copie locale n\'était disponible pour le chargement. <br> <br> L\'index de distribution est un fichier essentiel qui fournit les dernières informations sur le serveur. Le launcher ne peut pas démarrer sans lui. Assurez-vous que vous êtes connecté à Internet et relancez l\'application.',
                 'Fermer'
             )
             setOverlayHandler(() => {
