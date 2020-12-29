@@ -1112,7 +1112,7 @@ body, button {
 .toggleSwitch {
     position: relative;
     display: inline-block;
-    width: 40px;
+    width: 60px;
     height: 20px;
     border-radius: 50px;
     box-sizing: border-box;
@@ -2874,7 +2874,7 @@ input:checked + .toggleSwitchSlider:before {
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
 .mediaSVG:active {
-    height: 20px;
+    height: 40px;
 }
 
 /* Social media URL shared styles. */
