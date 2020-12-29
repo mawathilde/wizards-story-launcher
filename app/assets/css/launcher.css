@@ -2660,10 +2660,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 360px;
     width: auto;
     position: relative;
-    border: 2px solid white;
     box-sizing: border-box;
     border-radius: 50%;
 }
@@ -2776,12 +2775,11 @@ input:checked + .toggleSwitchSlider:before {
 /* User profile avatar container. */
 #avatarContainer {
     border-radius: 50%;
-    border: 2px solid #cad7e1;
     box-sizing: border-box;
     background: rgba(1, 2, 1, 0.5);
     height: 70px;
     width: 70px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0px rgba(1, 2, 1, 0.5);
     overflow: hidden;
     position: relative;
     background-position: center;
@@ -2835,9 +2833,15 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    height: calc(100% - 95px);
+    border-radius: 20px;
     width: 70px;
     align-items: center;
+    border: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(1, 2, 1, 0.5);
+    background-color:  rgba(1, 2, 1, 0.5);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 }
 
 /* Social Media Icon division containers. */
@@ -3745,7 +3749,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Stationary image for the spinner. */
 #loadCenterImage {
     position: absolute;
-    width: 277px;
+    width: 200px;
     height: auto;
 }
 
