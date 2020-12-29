@@ -2986,7 +2986,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;
@@ -2995,10 +2995,10 @@ input:checked + .toggleSwitchSlider:before {
 /* Divider used on the bottom of the landing view. */
 .bot_divider {
     height: 25px;
-    width: 2px;
+    width: 1px;
     background: rgba(107, 105, 105, 0.7);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 32px;
+    margin-right: 12px;
 }
 
 /* * *
@@ -3013,11 +3013,11 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Span which displays the player count of the selected server. */
 #player_count {
-    color: #949494;
-    font-size: 8px;
+    color: #23aa23;
+    font-size: 14px;
     font-weight: 900;
-    text-shadow: 0px 0px 20px #949494;
-    margin-left: 10px;
+    text-shadow: 0px 0px 12px #23aa23;
+    margin-right: 7px;
 }
 
 /* Wrapper container for the mojang status bar. */
