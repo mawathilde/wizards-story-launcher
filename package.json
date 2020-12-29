@@ -1,13 +1,13 @@
 {
   "name": "wizardsstorylauncher",
-  "version": "1.8.0",
-  "productName": "Wizards Story Launcher",
-  "description": "Wizards StoryModded Minecraft Launcher",
+  "version": "0.0.1",
+  "productName": "WizardsStoryLauncher",
+  "description": "Modded Minecraft Launcher",
   "author": "WS Devs fork of Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/mawathilde/wizards-story-launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/mawathilde/wizards-story-launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/mawathilde/wizards-story-launcher.git"
   }
 }
