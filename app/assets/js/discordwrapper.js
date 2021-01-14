@@ -11,7 +11,7 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = 'En atten
 
     activity = {
         details: initialDetails,
-        state: 'Serveur: ' + servSettings.shortId,
+        state: 'discord.gg/jQsUH5f',
         largeImageKey: servSettings.largeImageKey,
         largeImageText: servSettings.largeImageText,
         smallImageKey: genSettings.smallImageKey,
