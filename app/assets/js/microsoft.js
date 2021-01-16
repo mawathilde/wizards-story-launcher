@@ -3,7 +3,7 @@ const request = require('request')
 // const logger = require('./loggerutil')('%c[Microsoft]', 'color: #01a6f0; font-weight: bold')
 
 // Constants
-const clientId = 'azure client token'
+const clientId = '873cb058-9186-47e7-b74c-c7513418080f'
 const tokenUri = 'https://login.microsoftonline.com/consumers/oauth2/v2.0/token'
 const authXBLUri = 'https://user.auth.xboxlive.com/user/authenticate'
 const authXSTSUri = 'https://xsts.auth.xboxlive.com/xsts/authorize'
