@@ -358,7 +358,7 @@ ipcRenderer.on('MSALoginWindowReply', (event, ...args) => {
         }, 1000)
     }).catch(error => {
         loginLoading(false)
-        setOverlayContent('ERROR!', 'Report Plz!', Lang.queryJS('login.tryAgain'))
+        setOverlayContent('ERREUR', 'Impossible de se connecter avec ce compte microsoft.', Lang.queryJS('login.tryAgain'))
         setOverlayHandler(() => {
             formDisabled(false)
             toggleOverlay(false)
