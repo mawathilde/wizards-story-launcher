@@ -38,7 +38,7 @@ async function validateSelectedMojang() {
         loggerSuccess.log('Account access token validated.')
         return true
     }
-}
+} 
 
 async function validateSelectedMicrosoft() {
     try {
@@ -145,6 +145,8 @@ exports.validateSelected = async function(){
         } catch (error) {
             return Promise.reject(error)
         }
+    } else {
+        return true
     }
 }
 
